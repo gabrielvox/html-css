@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+*{
+    font-family: 'work sans', Arial, Helvetica, sans-serif;
+    /* Fonte seguras, o navegador procura se existe a fonte no dispositivo pela ordem escrita aqui;
+    a fonte 'work sans' com aspas, nao existe em nenhum dispositivo.*/
+}
+
+body{
+    background-image: linear-gradient(to right, #F1D8C9, #f2c3a7);
+    /* cores do fundo da tela*/
+    font-size: 1em;
+    /*Medidas absolutas
+    cm, mn, in, px, pt, pc
+    cm, mn nao recomendado pq cada tela tem medida diferente
+    px, lembrar das medidas da apple.
+    pt, medida para papel, nao usar.
+    
+    Medida relativas
+    em, ex, rem, vm,vh
+    EM= referente ao M maiusculo. EX= referente ao X minusculo
+    vm view port, porcentagem da largura da viewport
+    vh largura da view port
+
+    recomendado trabalhar com EM, mas é mto chato, melhor px. */
+
+
+}
+
+h1 {
+    font-family: ; /* estilo da fonte. usar trindade de fontes seguras*/
+    font-weight: ; /* peso da fonte. Normal, lighter, bold, bolder, 100 a 900*/
+    font-size: 3em; /* tamanho da fonte. usar EM*/
+    font-style: italic; /*Estilo da fonte*/
+    /* acima sao os 4 mais usados, sera o shortHand*/
+    text-decoration: ; /*UnderLine e etc. perfumaria*/
+    /*SHORTHAND nessa sequencia= font-style > font-weight > font-size > font-family*/
+    /* shorthand=   font: italic bolder 3em 'work sans', sans serif; */
+    /* outra forma é usar sem os valores indesejados exp:
+                    font: bolder 3em sans serif; */
+
+}
+    
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main { /*main criado como se fosse uma div, main= conteudo principal*/
+    background-color: white;
+    border-radius: 10px; /*borda redonda*/
+    box-shadow: 10px 10px 10px rgba(136, 109, 93, 0.616); /*Lateral, cimaBaixo, Transparencia*/
+    width: 600px;
+   padding: 10px;
+   margin: auto; /*Auto centraliza o conteudo mesmo alterando tamanho da tela*/
+}
+h1 {
+    color: #d3723a;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+h2 {
+    color: rgb(17, 17, 188);
+
+}
+p {
+    text-align: justify;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias html5</title>
+</head>
+<body>
+    <h1>testando imagens dinamicas</h1>
+
+    <picture>  
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1080px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="fotog">        
+    </picture>
+    <!--Manter soucer na ordem. senao nao funciona-->
+    <!--alterar o Width para  MAX-->
+    <h1>audio</h1>
+    <br>
+    <h1>Primeiro modo de adicionar audio, simples.</h1>
+    <audio src="midia/01.mp3"  controls autoplay></audio>
+    <!--compatibilidade 100% de audios com todos navegadores usar MP3 WAV OGG-->
+    
+    <h2>segunda forma de adicionar audios</h2>
+    <h3>Musicas temas das cidades</h3>
+    <!--na tag audio voce pode adicionar o parametro autoplay para tocar o arquivo assim que o site abrir, nao funciona no chromer-->
+    <!--no parametro Preload, Metadata significa que o site vai carregar informacoes do arquivo, como nome tempo etc, mas nao vai toca-lo, somente quando der o play-->
+    <!--com o parametro auto, o site so vai ser considerado carregado por inteiro quando o arquivo de audio tambem for carregado. Deixar em branco é considerado como parametro Auto.-->
+    <!--NONE nao carrega nada, nem informacoes. somente quando alguem clicar PLay.-->
+    <!--adicionar o parametro LooP, faz o audio tocar novamente.-->
+    <p>Tema de Rune-Midgard</p>
+    <audio preload="metadata" controls>
+        <source src="midia/01.mp3" type="audio/mpeg">
+        <p>Seu audio nao pode ser executado. <a href="midia/midia.rar" download="midias.rar" type="application/rar">Clique aqui</a> para baixar o arquivo zip.</p>
+        <!--Si o navegador nao conseguir executar nenhum dos arquivos, esta mensagem sera ativada para download-->        
+    </audio>
+    <p>Tema de Prontera</p>
+    <audio preload="metadata" controls>
+        <source src="midia/08.mp3" type="audio/mpeg">
+        <p>Seu audio nao pode ser executado. <a href="midia/08.mp3" download="08.mp3" type="audio/mpeg">Clique aqui</a> para baixar.</p>
+    </audio>
+    <p>Tema de Morroc</p>
+    <audio preload="metadata" controls>
+        <source src="midia/11.mp3" type="audio/ogg">
+        <source src="midia/11.mp3" type="audio/mpeg">
+        <p>Seu audio nao pode ser executado. <a href="midia/midia.rar" download="08.mp3" type="audio/mpeg">Clique aqui</a> para baixar.</p>
+    </audio>
+    <p>Tema de Geffen</p>
+    <audio preload="metadata" controls>
+        <source src="midia/13.mp3"type="audio/mpeg">
+        <p>Seu audio nao pode ser executado. <a href="midia/13.mp3" download="13.mp3" type="audio/mpeg">Clique aqui</a> para baixar.</p>
+    </audio>
+    <p>Tema de Payon</p>
+    <audio preload="metadata" controls>
+        <source src="midia/14.mp3" type="audio/mpeg">
+        <p>Seu audio nao pode ser executado. <a href="midia/14.mp3" download="14.mp3" type="audio/mpeg">Clique aqui</a> para baixar.</p>
+    </audio>
+    <p>Tema de Alberta</p>
+    <audio preload="metadata" controls>
+        <source src="midia/15.mp3" type="audio/mpeg">
+        <p>Seu audio nao pode ser executado. <a href="midia/15.mp3" download="15.mp3" type="audio/mpeg">Clique aqui</a> para baixar.</p>
+    </audio>
+   <p><a href="midia/midia.rar" download="midia.rar" type="application/rar">Baixe todos os audios aqui.</a></p>
+    
+    <h1>Inserindo videos Localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor.</p>   
+
+    <video width="560" poster="img/banner.jpg" controls loop autoplay>
+        <source src="videos/video01.mp4" type="video/mp4">
+        <source src="videos/video02.m4v" type="video/mp4">
+        <source src="videos/video03.webm" type="video/webm">
+        <p>Seu video nao pode ser reproduzido</p>
+    </video>
+    
+    <h1>Incorporando do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+</body>
+</html>

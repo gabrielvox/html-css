@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+                background-color: black;
+                color: beige;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        a {
+            
+            text-decoration: none;
+            font-size: 40px;
+            font-weight: normal;
+        }
+        a:visited {
+            color: rgba(255, 0, 0, 0.7);
+        }
+        a:hover {
+            color: green;
+            font-family: serif;
+            font-size: 40px;
+            text-decoration: line-through;
+        }
+        a:active{
+            color: yellow;
+        }
+
+        a::after {
+            content: 'link';
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!--nao esquecer do https, senao nao reconhece o link externo-->
+    <p><a href="https://www.youtube.com" target="_blank">Youtube </a></p>
+    <p><a href="googke.com">Google </a></p>
+    <p><a href="instagram.com">Instagram </a></p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.container{
+    background-color:blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+.bloco1{
+    background-color: red;
+
+    
+}
+
+.bloco2 {
+    background-color: green;
+}
+.bloco3 {
+    background-color: blue;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <H1>usando link externos</H1>
+
+    <P>Site oficial do <a href="https://www.u2.com/" target="_blank" rel="external">U2</a></P>
+
+    <p><a href="https://www.u2.com/media" target="_blank" rel="nonfollow">Discografia completa</a> da banda. </p>
+    <!--NonFollow indica que a pagina a seguir nao foi validada pelo meu site. Ou seja, nao pode ser considerada a estrutura do outro site para ser linkada junto a minha. indica pagina de patrocinadores ou paginas de referencia!! tambem existe a tag DOFOLLOW-->
+
+    <p>Ir para <a href="pag002.html" rel="next" target="_self">pagina 002</a> </p>
+    <!-- Rel next indica para o buscador que o link leva para proxima pagina, nao nescessariamente a pagina 2 || PREV indica pagina anterior, nao nescessariamente a primeira, home.-->
+    <!--target SELF semanticamente indica que abre na mesma aba-->
+
+    <p>Ir para <a href="noticias/pag003.html" rel="next" target="_self"> pagina 003</a></p>
+    
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livros/NTF.pdf" download="NTF.pdf" type="application/pdf">Baixar o livro em PDF </a></li>
+        <li><a href="livros/NTF.rar" download="NTF.RAR" type="application/rar">Baixar em RAR</a></li>
+        <!--tag download para indicar, declarar o typo de download, lista no site -->
+    
+    </ul>
+    <p>Site lista de downloads link <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="doFollow">AQUI</a></p>
+
+<img src="" alt="">
+
+
+
+</body>
+</html>
