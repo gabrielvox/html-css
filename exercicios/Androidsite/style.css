@@ -1,9 +1,66 @@
 @charset "utf-8";
-
-main {
-    background-color: rgba(0, 128, 0, 0.383);
+* { /*Zera todas configuracoes, mesmo as que nao foram especificadas */
+    margin: 0px;
+    padding: 0px;
 }
 
-body {
-    background-color: rgba(0, 0, 255, 0.132);
+header {
+    /*background-color: rgba(0, 128, 0, 0.383);*/
+    display: block;
+    width: auto;
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, rgba(0, 128, 0, 0.851), rgba(0, 0, 0, 0.737));
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: ;
+  
+}
+
+header > h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    /*pra que padding ou margin em outro local se so aqui da pra afastar o titulo do menu de navegacao; deixando o restante zerado*/
+}
+nav {
+   background-color:  rgba(0, 0, 0, 0.737);
+   padding: 10px;
+}
+
+nav > a {
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition-duration: .5s;
+    
+}
+
+nav > a:hover {
+    background-color: rgba(255, 255, 255, 0.706);
+    color: black;
+    /* nao sei pq essa merda de margem nao cola com a do lado mesmo especificando tudo com 0   sempre fica um espaco entre os hover, ou seja, sempre vai ter espaco entre um texto e outro nao sei pq*/
+    
+
+    
+    
+}
+
+article {
+    background-color: rgba(255, 0, 212, 0.318);
+    padding:;
+    margin:20px; /* px temporario*/
+}
+
+div {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(161, 24, 24);
+    margin: 10px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    padding: 20px;
+
 }
