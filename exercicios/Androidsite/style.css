@@ -13,7 +13,6 @@ header {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    padding-top: ;
   
 }
 
@@ -48,7 +47,6 @@ nav > a:hover {
 
 article {
     background-color: rgba(255, 0, 212, 0.318);
-    padding:;
     margin:20px; /* px temporario*/
 }
 
