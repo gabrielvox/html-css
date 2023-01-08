@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'android'; 
-    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    src: url(fontes/idroid.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -49,8 +49,6 @@ header > h1 {
     font-size: 3em;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
-    
-
     /*pra que padding ou margin em outro local se so aqui da pra afastar o titulo do menu de navegacao; deixando o restante zerado*/
 }
 
@@ -63,7 +61,6 @@ header > p {
     max-width: 500px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
-   
 }
 
 nav {
@@ -77,33 +74,31 @@ nav > a {
     text-decoration: none;
     border-radius: 3px;
     transition-duration: .6s;
-    
 }
 
 nav > a:hover {
     background-color: rgba(255, 255, 255, 0.706);
     color: black;
     /* nao sei pq essa merda de margem nao cola com a do lado mesmo especificando tudo com 0   sempre fica um espaco entre os hover, ou seja, sempre vai ter espaco entre um texto e outro nao sei pq*/
-    
+}
 
-    
+article {
+    background-color: aliceblue ;
+    /* margin:20px; */ /* px temporario*/
+}
+
+.font-android {
+    font-family: var(--fonte-android);
+}
+
+.font-gradient {
+    background-image:linear-gradient(to right, var(--cor1), white);
+}
+
+main {
     
 }
 
 article {
-    background-color: rgba(255, 0, 212, 0.318);
-    margin:20px; /* px temporario*/
-}
-
-div {
-    display: block;
-    width: 200px;
-    height: 200px;
-    background-color: rgb(161, 24, 24);
-    margin: 10px;
-    border-color: blue;
-    border-width: 5px;
-    border-style: solid;
-    padding: 20px;
-
+    padding-top: 20px;
 }
