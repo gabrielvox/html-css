@@ -130,10 +130,15 @@ main {
 
 main h2 {
     color: var(--cor5);
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-weight: normal;
     /* font-weight: normal; coloquei na class font android mas nao deu certo pq o H2 é normal mas o restante é bolder*/
-}
+    /* max-width: 1050px;
+    display: block;
+    margin: auto; */
+    
+    
+  }
 
 main h3 {
     font-size: 1.3em;
@@ -142,7 +147,7 @@ main h3 {
 }
 
 main p  {
-    color: rgb(123, 20, 20);
+    color: rgb(0, 0, 0);
     font-size: 1em;
     text-align: justify;
     line-height: 1.5em;
@@ -174,6 +179,8 @@ main p  {
     margin: auto;
 }
 
+
+
 /* article { NAO PRECISAVA
    /*  background-color: rgb(255, 255, 255) ;
     padding: 20px;
@@ -196,7 +203,7 @@ aside h3 {
 }
 
  aside ul {
-   
+    font-size: 0.9em;
     columns: 2;
     list-style-position: inside;
     list-style-type: '\2714\00A0\00A0';
