@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: rgb(60, 44, 44);
+}
+section.normal {
+    background-color: aliceblue;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgba(0, 0, 255, 0.295);
+}
