@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style></style>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+    
+        th, caption{
+            background-color: rgba(66, 65, 65, 0.375);
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
     <h1>Tabela 02</h1>
+    
     <table>
+    <caption>Tabela caption</caption>
   <!--       anatomia para tabelas grandes
             table
                 thead
@@ -21,23 +40,31 @@
 
     <thead>
         <tr>
-            <th>Estado
-            <th>Populacao
+            <th scope="col">Estado
+            <th scope="col" style="width: 150px;">Populacao
+                <!-- Scope col diz que os dados estao abaixo -->
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Goias</td>
-            <td>11.998.448</td>
+            <td class="num">11.998.448</td>
         <tr>
             <td>Minas gerais</td>
-            <td>47.588.448</td>
+            <td class="num">47.588.448</td>
         <tr>
             <td>Bahia</td>
-            <td>45.125.784</td>
+            <td class="num">45.125.784</td>
+            <tr>
+                <td>Sáo Paulo</td>
+                <td class="num">3.125.784</td>
       
     </tbody>
-    <tfoot></tfoot>
+    <tfoot>
+        <th scope="row">Total de habitantes</th>
+        <!-- Scope row informacoes acima// semantica -->
+        <th>210.548</th>
+    </tfoot>
     </table>
 </body>
 </html>
