@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela04</title>
+    <style>
+        td, th, table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        td:hover{
+            background-color: red;
+        }
+        th:hover{
+            background-color: blue;
+        }
+        .grupos:hover{
+            background-color: bluevioletb,n   ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela04</h1>
+    <table>
+        <thead>
+            <th class="grupos" scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana maria
+                <td>alien</td>
+                <td>Rambo</td>
+                <td>xxx</td>
+            </tr>
+            <tr>
+                <td>Claudia</td>
+                <td>xxx</td>
+                <td>xxx</td>
+                <td>xxx</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>xxx</td>
+                <td>xxx</td>
+                <td>xxx</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                
+                    <td>Joao</td>
+                    <td>xxx</td>
+                    <td>xxx</td>
+                    <td>xxx</td>
+                </tr>
+                <tr>
+                    <td>Alexsy</td>
+                    <td>xxx</td>
+                    <td>xxx</td>
+                    <td>xxx</td>
+                </tr>
+                <tr>
+                    <td>Lucas</td>
+                    <td>xxx</td>
+                    <td>xxx</td>
+                    <td>xxx</td>
+                </tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
