@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            /*background-color: red;*/
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de senha</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="15" size="20" placeholder="Nome completo" autocomplete="username"></p>
+
+        <p><label for="imedia">Media:</label> 
+            <input type="number" name="Media" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.5"></p>
+        
+        <p><label for="imes">Ano Letivo</label></p>
+        <input type="date" name="date" id="idate"><br>    
+        <input type="month" name="mes" id="imes"><br>
+        <input type="week" name="week" id="iweek"><br>
+        <input type="time" name="time" id="itime"><br>
+
+
+        <p><input type="submit" value="Enviar">
+            <input type="reset"></p>
+    </form>
+
+</body>
+</html>
