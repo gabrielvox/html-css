@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            /*background-color: red;*/
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de senha</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p><label for="iuso">Usuario:</label> 
+            <input type="text" name="uso" id="iuso" required minlength="5" maxlength="15" size="10" placeholder="Usuario" autocomplete="username"></p>
+
+        <p><label for="isenha">Senha:</label> 
+            <input type="password" name="senha" id="isenha" required minlength="3" placeholder="Senha" autocomplete="current-password"></p>
+
+        <p><input type="submit" value="Enviar">
+            <input type="reset"></p>
+    </form>
+
+</body>
+</html>
