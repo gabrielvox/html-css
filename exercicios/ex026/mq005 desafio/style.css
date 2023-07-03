@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: rgb(136, 132, 132);
+    padding: 20px 0px 5px 1px;
+    margin-bottom: 10px;
+    
+}
+header h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 1px;
+    margin-top: 1px;
+}
+
+/*{
+    padding: 0px;
+    margin: 0px;
+}*/
+
+li {
+   display: inline;
+   background-color: rgb(80, 80, 80);
+   color: rgb(255, 254, 254);
+   padding: 5px;
+   
+}
+
+article p{
+    text-indent: 1em;
+    padding: 10px;
+    text-align: justify;
+}
+
+main {
+    background-color: rgb(233, 233, 233);
+    max-width: 90vh;
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+main h1 {
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(184, 184, 184);
+}
