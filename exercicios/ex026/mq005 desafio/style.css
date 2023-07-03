@@ -22,7 +22,7 @@ header > h1{
 }
 
 span#burger {
-    background-color: rgb(45, 45, 47);
+    background-color: rgba(48, 48, 59, 0);
     display: block;
     text-align: center;
     padding: 10px;
@@ -30,7 +30,7 @@ span#burger {
 }
 
 span#burger:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.341);
     color: black;
 }
 menu {
