@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*Typical Device Breakpoints
+Pequenas telas: ate 600px
+Celular: 600 a 768px
+Desktop: 992 ate 1200px
+Grandes telas: acima de 1200px
+****verificar no W3C as atuais resolucoes */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html {
+ background-color: rgba(0, 0, 0, 0.657);
+}
+
+
+header {
+    margin: 0px;
+    padding: 0px;
+    min-height: 35vh;
+    min-width: 10vh;
+    background-image: url(imagens/vegeta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+header > section > p {
+    display: none;
+}
+body{
+   
+    min-height: 800px;
+    max-width: 50vh;
+    background-color: rgb(198, 169, 125);
+    margin: auto;
+    margin-top: 5px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgb(0, 0, 0);
+
+}
+
+main h1, p {
+    
+    padding: 10px;
+}
+
+main h1{
+    text-align: center;
+}
+
+section#suser {
+    background-color: rgb(106, 47, 160);
+    padding: 20px;
+    margin: 3px 10px 3px 10px;
+}
+
+
+input#ienviar {
+    color: red;
+    margin-left: 10px;
+    
+   
+}
+
+input#ireset {
+    color: red;
+    margin-left: 10px;
+    min-block-size: 40px;
+    min-width: 40vh;
+    
+}
+
+section#slogin{
+    background-color: red;
+
+
+}
+
