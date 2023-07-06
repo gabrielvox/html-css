@@ -6,21 +6,155 @@ Desktop: 992 ate 1200px
 Grandes telas: acima de 1200px
 ****verificar no W3C as atuais resolucoes */
 
-*{
+*{  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.741);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem {
+   display: block;
+    background: #5f2c82 url(imagens/vt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 200px;
+  
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+    text-indent: 10px;
+ 
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
 
 
+section#login > div#formulario h1 {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
 
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+    background-color: rgb(62, 116, 89);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
 
+form > input[type=submit]:hover {
+    background-color: rgb(37, 70, 54) ;
+    cursor: pointer;
+}
 
+form > a.botao {
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgb(84, 145, 115);
+    background-color: rgb(97, 168, 133);
+    margin-top: 5px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(22, 23, 20);
 
+}
 
+form > a.botao span {
+    font-size: 0.8em;
+}
 
+form > a.botao:hover {
+    background-color: rgb(129, 189, 149);
+}
 
+.campo {
+    width: 100%;
+    height: 30px;
+    display: block;
+    background-color: rgb(175, 203, 225);
+    margin: 5px 0px;
+    border-radius: 10px;
 
+}
 
+.campo > label {
+    display: none;
+}
+
+div.campo > #i {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: left;
+    text-indent: 0em;
+    width: 30px;
+    padding-left: 0px;
+    margin-left: -0px;
+ 
+}
+
+div.campo > input {
+    background-color: beige;
+    font-size: 1em;
+    width: calc(100% - 45px) ;
+    transform: translateY(-10px) translateX(1px);
+
+    height: 100%;
+    border: solid 0.5px rgb(175, 203, 225) ;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+div.campo > input:hover {
+    background-color: azure;
+    border: ridge 0.5px black;
+  
+} 
+
+div.campo > input:focus-within {
+    background-color: azure;
+    border: none;
+}
 
 
 
