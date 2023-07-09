@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    
+  
+}
+
+div {
+
+}
+
+form {
+    display: block;
+    background-color: #4c4747;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+
+ 
+}
+    
+
