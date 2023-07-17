@@ -2,7 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+/*TABLET*/
+@media screen and (min-width: 0px) and (max-width: 600px) {/*TABLET*/
+    
 body {
     background-color: antiquewhite;
 }
@@ -13,42 +15,42 @@ header > h1 {
     font-size: 3.5em;
 }
 header{
-    color: white;
-    background-color: black;
+/*  border: 1px solid rgb(0, 0, 0, 0.100);*/
+
+}
+
+#logo {
     height: 200px;
     width: 100%;
     background-image: url(imagens/kabalpng.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-size: contain;
-}
 
+}
 menu > ul > li {
-    font-size: 1.2em;
-    margin-bottom: 0px;
-    margin-top: 4px;
-    display: block;
-    color: rgb(255, 254, 254);
-    padding: 1px 3px;
-    text-align: center;
-    border: 1px solid rgb(100, 100, 100);
-    margin-left: 10px;
-    max-height: 50%;
-    max-width: 30%;
+   display: block;
+ 
+   color: rgb(0, 0, 0);
+   padding: 5px;
+   text-align: center;
+   border: 1px solid rgb(100, 100, 100);
+   margin-bottom: 0px;
  }
+
 main{
     padding: 10px;
-   
+    text-align: center;
+    font-family: fantasy;
 }
+
  #img {
     display: inline-block;
-   
     background-image: url(imagens/antartic.png);
     background-size: contain;
     background-position: center;
     height: 100px;
     width: 100px;
- 
  }
 
  #img1 {
@@ -73,3 +75,23 @@ main{
     width: 100px;
  }
 
+
+
+
+
+ span#burger {
+    background-color: rgba(48, 48, 59, 0);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burger:hover {
+    background-color: rgba(255, 255, 255, 0.341);
+    color: black;
+}
+menu {
+    display: none;
+    
+}
