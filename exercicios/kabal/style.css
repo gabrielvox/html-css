@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: black;
+    color: aliceblue;
+}
+header > h1 {
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px;
+}
+header{
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    background-image: url(imagens/kabalpng.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+menu > ul > li {
+    display: inline-block;
+    
+    color: rgb(255, 254, 254);
+    padding: 1px 3px;
+    text-align: center;
+    border: 1px solid rgb(100, 100, 100);
+    margin-bottom: 0px;
+    margin-top: 4px;
+    margin-left: 10px;
+ }
+main{
+    padding: 10px;
+   
+}
+ #img {
+    display: inline-block;
+   
+    background-image: url(imagens/antartic.png);
+    background-size: contain;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+ 
+ }
+
+ #img1 {
+    display: inline-block;
+    
+    background-image: url(imagens/itaipava.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+ }
+
+ #img2 {
+    display: inline-block;
+  
+    background-image: url(imagens/skol.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+ }
+
