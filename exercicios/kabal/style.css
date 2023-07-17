@@ -7,18 +7,15 @@ body {
     background-color: antiquewhite;
 }
 
-nav {
-    background-color: black;
-    color: aliceblue;
-}
 header > h1 {
     font-family: 'Shadows Into Light', cursive;
-    padding: 10px;
+    padding: 0px 1px 7px 7px;
+    font-size: 3.5em;
 }
 header{
     color: white;
     background-color: black;
-    height: 100px;
+    height: 200px;
     width: 100%;
     background-image: url(imagens/kabalpng.png);
     background-repeat: no-repeat;
@@ -27,15 +24,17 @@ header{
 }
 
 menu > ul > li {
-    display: inline-block;
-    
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    display: block;
     color: rgb(255, 254, 254);
     padding: 1px 3px;
     text-align: center;
     border: 1px solid rgb(100, 100, 100);
-    margin-bottom: 0px;
-    margin-top: 4px;
     margin-left: 10px;
+    max-height: 50%;
+    max-width: 50%;
  }
 main{
     padding: 10px;
