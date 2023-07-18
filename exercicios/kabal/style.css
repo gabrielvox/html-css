@@ -7,8 +7,13 @@
     
 body {
     background-color: antiquewhite;
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-
+main {
+    flex: 1;
+  }
 header > h1 {
     font-family: 'Shadows Into Light', cursive;
     padding: 0px 1px 7px 7px;
@@ -30,14 +35,31 @@ header{
 }
 menu > ul > li {
    display: block;
- 
    color: rgb(0, 0, 0);
-   padding: 5px;
+   padding: 0px;
    text-align: center;
    border: 1px solid rgb(100, 100, 100);
-   margin-bottom: 0px;
+   margin-bottom: 1.5px;
+ }
+ menu > ul > li:hover {
+    background-color: black;
+    color: aliceblue;
  }
 
+a{
+    display: block;
+   padding: 5px;
+    width: auto;
+    height: fit-content;
+}
+a:hover{
+    color: aliceblue;
+}
+
+menu > ul > li> a {
+    text-decoration: none;
+    color: black;
+}
 main{
     padding: 10px;
     text-align: center;
@@ -74,11 +96,6 @@ main{
     height: 100px;
     width: 100px;
  }
-
-
-
-
-
  span#burger {
     background-color: rgba(48, 48, 59, 0);
     display: block;
@@ -94,4 +111,9 @@ span#burger:hover {
 menu {
     display: none;
     
+}
+
+footer {
+    background-color: rgba(130, 91, 91, 0.41);
+    text-align: center;
 }
