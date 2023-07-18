@@ -48,9 +48,9 @@ menu > ul > li {
 
 a{
     display: block;
-   padding: 5px;
-    width: auto;
-    height: fit-content;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
 }
 a:hover{
     color: aliceblue;
